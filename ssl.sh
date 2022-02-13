@@ -19,8 +19,6 @@ CERTIFICATE_CSR="${BUILD_SSL_PATH}/${CERTIFICATE_NAME}.csr"
 CERTIFICATE_CRT="${BUILD_SSL_PATH}/${CERTIFICATE_NAME}.crt"
 CERTIFICATE_SUBJ="/C=RU/ST=Moscow/L=Moscow/O=Personal CA Certifications/OU=Personal CA Certifications/emailAddress=stub@personal.localhost/CN=Personal CA Certifications"
 
-
-
 if [[ ! -e $BUILD_SSL_PATH ]]; then
   mkdir $BUILD_SSL_PATH
 fi
