@@ -1,4 +1,4 @@
-# Generating self-signed SSL certificates for local development
+# Generating self-signed SSL certificates.
 ```shell
 ./ssl.sh [ ca_certificate_name: default ] [ domain_name: example.my ]
 ```
